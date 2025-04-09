@@ -1,0 +1,174 @@
+description: null
+tags:
+  _aml_system_automl_mltable_data_json: >-
+    {"Type":"MLTable","TrainData":{"Uri":"azureml://locations/eastus/workspaces/9213a399-7c1e-4430-98cd-44ca8207aec7/data/sorvetes/versions/1","ResolvedUri":null,"AssetId":null},"TestData":null,"ValidData":null}
+  model_explain_run: best_run
+  _aml_system_automl_run_workspace_id: 9213a399-7c1e-4430-98cd-44ca8207aec7
+  _aml_system_azureml.automlComponent: AutoML
+  pipeline_id_000: >-
+    4bc4ec47eb8df2d5d68b361cd60120e65196f757;3aafea87a1867ef033b325e8b0d957ad0978eb64;6f6e4673d6e726e5d9cc3254238900d574ebe5f3;441b153490a700b2423544f1b0e789fbc2ae4ccb;3c18e73a8d208d4a3546533280dfaacad7651879;da75d589332f07cb7b01cf0633031488879ffa2e;79b604e23c33cd8d59ecee991bec68b401639d11;5a46983b17207ac4c9b60eb2ac395f1cf9876420;721d30c2d6cb63e6048ae53c0eb8b60e2c7d22e6;c65dfdc8bff946e7e3bbe746535896e9ed3ca15c;5f18df91f933aeafd42972be8f9d78454ada1bd0;78df07d67cc3dc5e625dad3049d08c38f3ce6c91;1b940d7bf1f9a6db0d10ce2104c1aa4b15b88078;71dd6ba08b84f62a8e92f79593147dade91e7f19;df2c5112284fbb2f7f08342b7cc78893c72eee4d;68101aa987a069ca97603d33ce9c5ea1be017207;15434c5ce2b81eec80fa15735181370e6424db68;c6923c74c447c122fc6a23cfac2e39d6b91c0d5d;9437fd739fe959c114c12302a585ca8d335f5c8c;09369db1cce52826f984a1f8c552cb4c46e3d8d7;75e53b5f7ea07c08698cd255a346601f07cdd3f6;__AutoML_Ensemble__
+  score_000: >-
+    0.12253599235305461;NaN;0.24158284378752964;0.12008382879197192;NaN;NaN;0.24164452434460504;0.12077845945526103;0.12675935076652423;0.13979654336061784;0.12654931171622671;0.12264018567300235;0.24176341547822036;NaN;0.12223388670302293;NaN;0.12250763547239667;0.24276570764817085;NaN;0.5717623274802672;0.12291406324866332;0.11883574476295333
+  predicted_cost_000: >-
+    0;0.5;0.5;0.5;0.5;0.5;0.5;0.5;0.5;0.5;0.5;0.5;0.5;0.5;0.5;0.5;0.5;0.5;0.5;0.5;2.233675655365532;0
+  fit_time_000: >-
+    0.31531609999999993;NaN;1.6285501999999998;0.1042381;NaN;NaN;0.30023;0.100459;0.3098307;0.11114109999999999;0.3199443;0.3175031;2.0932514;NaN;0.32178110000000004;NaN;2.2767093;0.0619486;NaN;0.0565763;0.3429815;15
+  training_percent_000: >-
+    100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100
+  iteration_000: 0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21
+  run_preprocessor_000: >-
+    MaxAbsScaler;TruncatedSVDWrapper;SparseNormalizer;PCA;TruncatedSVDWrapper;TruncatedSVDWrapper;SparseNormalizer;StandardScalerWrapper;PCA;StandardScalerWrapper;PCA;PCA;SparseNormalizer;TruncatedSVDWrapper;StandardScalerWrapper;TruncatedSVDWrapper;StandardScalerWrapper;SparseNormalizer;TruncatedSVDWrapper;StandardScalerWrapper;PCA;
+  run_algorithm_000: >-
+    XGBoostRegressor;XGBoostRegressor;XGBoostRegressor;XGBoostRegressor;XGBoostRegressor;XGBoostRegressor;XGBoostRegressor;XGBoostRegressor;XGBoostRegressor;XGBoostRegressor;XGBoostRegressor;XGBoostRegressor;XGBoostRegressor;XGBoostRegressor;XGBoostRegressor;XGBoostRegressor;XGBoostRegressor;XGBoostRegressor;XGBoostRegressor;XGBoostRegressor;XGBoostRegressor;VotingEnsemble
+  _aml_system_azureml.automl_early_exit_message: >-
+    Experiment timeout reached, hence experiment stopped. Current experiment
+    timeout: 0 hour(s) 15 minute(s)
+  automl_best_child_run_id: honest_kettle_qzkmkp9p0b_21
+  model_explain_best_run_child_id: honest_kettle_qzkmkp9p0b_21
+properties:
+  num_iterations: '50'
+  training_type: TrainFull
+  acquisition_function: EI
+  primary_metric: normalized_root_mean_squared_error
+  train_split: '0'
+  acquisition_parameter: '0'
+  num_cross_validation: ''
+  target: cpu-cluster
+  AMLSettingsJsonString: >-
+    {"is_subgraph_orchestration":false,"is_automode":true,"path":"./sample_projects/experimento-automl-01","subscription_id":"24e545df-75fd-4e13-8593-8746a567a9ac","resource_group":"rg-dio-projetoum","workspace_name":"workspacedio","compute_target":"cpu-cluster","iterations":50,"primary_metric":"normalized_root_mean_squared_error","task_type":"regression","IsImageTask":false,"IsTextDNNTask":false,"n_cross_validations":null,"preprocess":true,"is_timeseries":false,"time_column_name":null,"grain_column_names":null,"max_cores_per_iteration":-1,"max_concurrent_iterations":1,"max_nodes":2,"iteration_timeout_minutes":15,"enforce_time_on_windows":false,"experiment_timeout_minutes":15,"exit_score":"NaN","experiment_exit_score":"NaN","whitelist_models":null,"blacklist_models":["ElasticNet","GradientBoosting","DecisionTree","KNN","LassoLars","SGD","RandomForest","ExtremeRandomTrees","LightGBM"],"blacklist_algos":["ElasticNet","GradientBoosting","DecisionTree","KNN","LassoLars","SGD","RandomForest","ExtremeRandomTrees","LightGBM","TensorFlowDNN","TensorFlowLinearRegressor"],"auto_blacklist":false,"blacklist_samples_reached":false,"exclude_nan_labels":false,"verbosity":20,"model_explainability":true,"enable_onnx_compatible_models":false,"enable_feature_sweeping":false,"send_telemetry":true,"enable_early_stopping":true,"early_stopping_n_iters":20,"distributed_dnn_max_node_check":false,"enable_distributed_featurization":true,"enable_distributed_dnn_training":true,"enable_distributed_dnn_training_ort_ds":false,"ensemble_iterations":15,"enable_tf":false,"enable_cache":false,"enable_subsampling":false,"metric_operation":"minimize","enable_streaming":false,"use_incremental_learning_override":false,"force_streaming":false,"enable_dnn":false,"is_gpu_tmp":false,"enable_run_restructure":false,"featurization":{"_blocked_transformers":null,"_column_purposes":{},"_transformer_params":{"Imputer":null},"_dataset_language":null},"vm_priority":"dedicated","label_column_name":"Vendas
+    (Unidades)","weight_column_name":null,"miro_flight":"default","many_models":false,"many_models_process_count_per_node":0,"automl_many_models_scenario":null,"enable_batch_run":true,"save_mlflow":true,"track_child_runs":true,"test_include_predictions_only":false,"enable_mltable_quick_profile":"True","has_multiple_series":false,"_enable_future_regressors":false,"enable_ensembling":true,"enable_stack_ensembling":false,"ensemble_download_models_timeout_sec":300.0,"stack_meta_learner_train_percentage":0.2,"vm_type":"Standard_DS11_v2","process_count_per_instance":0,"gpu_memory_gb":0.0}
+  DataPrepJsonString: null
+  EnableSubsampling: 'False'
+  runTemplate: AutoML
+  azureml.runsource: automl
+  _aml_internal_automl_best_rai: 'False'
+  ClientType: Mfe
+  _aml_system_scenario_identification: Remote.Parent
+  PlatformVersion: DPV2
+  environment_cpu_name: AzureML-ai-ml-automl
+  environment_cpu_label: '19'
+  environment_gpu_name: AzureML-ai-ml-automl-gpu
+  environment_gpu_label: '18'
+  root_attribution: automl
+  attribution: AutoML
+  Orchestrator: AutoML
+  CancelUri: >-
+    https://eastus.api.azureml.ms/jasmine/v1.0/subscriptions/24e545df-75fd-4e13-8593-8746a567a9ac/resourceGroups/rg-dio-projetoum/providers/Microsoft.MachineLearningServices/workspaces/workspacedio/experimentids/3c66e515-4603-4aac-9c4f-2b017585f1b2/cancel/honest_kettle_qzkmkp9p0b
+  mltable_data_json: >-
+    {"Type":"MLTable","TrainData":{"Uri":"azureml://locations/eastus/workspaces/9213a399-7c1e-4430-98cd-44ca8207aec7/data/sorvetes/versions/1","ResolvedUri":"azureml://locations/eastus/workspaces/9213a399-7c1e-4430-98cd-44ca8207aec7/data/sorvetes/versions/1","AssetId":"azureml://locations/eastus/workspaces/9213a399-7c1e-4430-98cd-44ca8207aec7/data/sorvetes/versions/1"},"TestData":null,"ValidData":null}
+  ClientSdkVersion: null
+  snapshotId: 00000000-0000-0000-0000-000000000000
+  SetupRunId: honest_kettle_qzkmkp9p0b_setup
+  SetupRunContainerId: dcid.honest_kettle_qzkmkp9p0b_setup
+  FeaturizationRunJsonPath: featurizer_container.json
+  FeaturizationRunId: honest_kettle_qzkmkp9p0b_featurize
+  ProblemInfoJsonString: >-
+    {"dataset_num_categorical": 0, "is_sparse": false, "subsampling": false,
+    "has_extra_col": true, "dataset_classes": 62, "dataset_features": 1,
+    "dataset_samples": 100, "single_frequency_class_detected": false}
+  ModelRAIRunId: honest_kettle_qzkmkp9p0b_RAI
+  ModelExplainRunId: honest_kettle_qzkmkp9p0b_ModelExplain
+displayName: honest_kettle_qzkmkp9p0b
+status: Completed
+experimentName: experimento-automl-01
+services:
+  Tracking:
+    jobServiceType: Tracking
+    port: null
+    endpoint: >-
+      azureml://eastus.api.azureml.ms/mlflow/v1.0/subscriptions/24e545df-75fd-4e13-8593-8746a567a9ac/resourceGroups/rg-dio-projetoum/providers/Microsoft.MachineLearningServices/workspaces/workspacedio?
+    status: null
+    errorMessage: null
+    properties: null
+    nodes: null
+  Studio:
+    jobServiceType: Studio
+    port: null
+    endpoint: >-
+      https://ml.azure.com/runs/honest_kettle_qzkmkp9p0b?wsid=/subscriptions/24e545df-75fd-4e13-8593-8746a567a9ac/resourcegroups/rg-dio-projetoum/workspaces/workspacedio
+    status: null
+    errorMessage: null
+    properties: null
+    nodes: null
+computeId: >-
+  /subscriptions/24e545df-75fd-4e13-8593-8746a567a9ac/resourceGroups/rg-dio-projetoum/providers/Microsoft.MachineLearningServices/workspaces/workspacedio/computes/cpu-cluster
+isArchived: false
+identity: null
+componentId: null
+notificationSetting: null
+secretsConfiguration: {}
+jobType: AutoML
+resources:
+  instanceCount: 1
+  maxInstanceCount: null
+  instanceType: null
+  locations: null
+  properties:
+    ComputeSpecification:
+      Automatic: false
+  shmSize: 2g
+  dockerArgs: null
+environmentId: null
+environmentVariables: null
+taskDetails:
+  logVerbosity: Info
+  trainingData:
+    description: null
+    uri: >-
+      azureml://locations/eastus/workspaces/9213a399-7c1e-4430-98cd-44ca8207aec7/data/sorvetes/versions/1
+    mode: ReadOnlyMount
+    jobInputType: mltable
+  targetColumnName: Vendas (Unidades)
+  limitSettings:
+    maxTrials: 50
+    trialTimeout: PT15M
+    timeout: PT15M
+    maxConcurrentTrials: 1
+    maxNodes: 2
+    maxCoresPerTrial: -1
+    exitScore: null
+    enableEarlyTermination: true
+    sweepTrials: 0
+    sweepConcurrentTrials: 0
+  sweepSettings: null
+  fixedParameters: null
+  searchSpace: null
+  nCrossValidations: null
+  cvSplitColumnNames: null
+  weightColumnName: null
+  validationData: null
+  testData: null
+  validationDataSize: null
+  testDataSize: null
+  featurizationSettings:
+    datasetLanguage: null
+    mode: Custom
+    blockedTransformers: []
+    columnNameAndTypes: {}
+    transformerParams:
+      Imputer: []
+    enableDnnFeaturization: false
+  taskType: Regression
+  primaryMetric: NormalizedRootMeanSquaredError
+  trainingSettings:
+    enableOnnxCompatibleModels: false
+    stackEnsembleSettings: null
+    enableStackEnsemble: false
+    enableVoteEnsemble: true
+    ensembleModelDownloadTimeout: PT5M
+    enableModelExplainability: true
+    enableDnnTraining: false
+    trainingMode: Auto
+    allowedTrainingAlgorithms: []
+    blockedTrainingAlgorithms:
+      - ElasticNet
+      - GradientBoosting
+      - DecisionTree
+      - KNN
+      - LassoLars
+      - SGD
+      - RandomForest
+      - ExtremeRandomTrees
+      - LightGBM
+outputs: {}
+queueSettings: null
