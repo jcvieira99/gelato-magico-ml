@@ -31,7 +31,7 @@ gelato-magico-ml/
 ## 📸 Prints do Projeto
 
 ### Pipeline de Treinamento com MLflow
-![pipeline](images/Modelo_Designer.jpg)
+![pipeline](https://raw.githubusercontent.com/jcvieira99/gelato-magico-ml/refs/heads/main/images/Modelo_Designer.jpg)
 
 ## 💡 Insights
 
