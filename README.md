@@ -53,4 +53,4 @@ gelato-magico-ml/
 
 ---
 
-Feito com 💙 por [Seu Nome]
+Desenvolvido por Jean Carlos
