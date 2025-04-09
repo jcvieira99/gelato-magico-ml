@@ -33,6 +33,10 @@ gelato-magico-ml/
 ### Pipeline de Treinamento com MLflow
 ![pipeline](https://raw.githubusercontent.com/jcvieira99/gelato-magico-ml/refs/heads/main/inputs/Modelo_Designer.jpg)
 
+• Abaixo está o pipeline construído no Azure ML Automatizado para treinar e avaliar o modelo de regressão linear:
+
+![pipeline](https://raw.githubusercontent.com/jcvieira99/gelato-magico-ml/refs/heads/main/inputs/Modelo_autoML.jpg)
+
 ## 💡 Insights
 
 - Existe uma forte correlação entre temperatura e volume de vendas.
