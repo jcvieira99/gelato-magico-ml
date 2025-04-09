@@ -35,7 +35,7 @@ gelato-magico-ml/
 
 • Abaixo está o pipeline construído no Azure ML Automatizado para treinar e avaliar o modelo de regressão linear:
 
-![pipeline](https://raw.githubusercontent.com/jcvieira99/gelato-magico-ml/refs/heads/main/inputs/Modelo_autoML.jpg)
+![pipeline](https://raw.githubusercontent.com/jcvieira99/gelato-magico-ml/refs/heads/main/inputs/Modelo_AutoML.jpg)
 
 ## 💡 Insights
 
