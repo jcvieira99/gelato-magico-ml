@@ -22,10 +22,10 @@ Bem-vindo ao repositório do projeto **Gelato Mágico**, onde aplicamos Machine 
 ```
 gelato-magico-ml/
 ├── inputs/
+|    └── Dados_Sorvetes.csv
 │   └── Modelo_AutoML.jpg
 │   └── Modelo_Designer.jpg
 |   └── sentences.txt
-|   └── Dados_Sorvetes.csv
 └── README.md
 └── Automl-01.json
 └── Automl-01.yaml
