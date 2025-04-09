@@ -26,9 +26,9 @@ gelato-magico-ml/
 │   └── Modelo_AutoML.jpg
 │   └── Modelo_Designer.jpg
 |   └── sentences.txt
-└── README.md
 └── Automl-01.json
 └── Automl-01.yaml
+└── README.md
 ```
 
 ## 📸 Prints do Projeto
